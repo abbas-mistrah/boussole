@@ -125,25 +125,25 @@ Live operating signals are converted into concise COMEX-ready briefs: what chang
 
 ```mermaid
 flowchart TB
-    subgraph Inputs[Operating signals]
-      A[Use-case portfolio]
-      B[Adoption & enablement]
-      C[Delivery & quality]
-      D[Cost, ROI & business impact]
-      E[Meetings & decisions]
+    subgraph Inputs["Operating signals"]
+      A["Use-case portfolio"]
+      B["Adoption and enablement"]
+      C["Delivery and quality"]
+      D["Cost, ROI and business impact"]
+      E["Meetings and decisions"]
     end
 
-    subgraph Core[Boussole intelligence layer]
-      F[Unified data model]
-      G[Composite indicators]
-      H[Decision rules & confidence]
-      I[Traceability & narrative engine]
+    subgraph Core["Boussole intelligence layer"]
+      F["Unified data model"]
+      G["Composite indicators"]
+      H["Decision rules and confidence"]
+      I["Traceability and narrative engine"]
     end
 
-    subgraph Outputs[Decision surfaces]
-      J[Transformation team]
-      K[Department owners]
-      L[Sponsors & COMEX]
+    subgraph Outputs["Decision surfaces"]
+      J["Transformation team"]
+      K["Department owners"]
+      L["Sponsors and COMEX"]
     end
 
     A --> F
